@@ -17,3 +17,22 @@ python src/main.py
 ```bash
 python -m unittest tests/test_main.py
 ```
+
+---
+
+## Docker
+
+### Build
+```bash
+docker build -t scalable-analytics-pipeline .
+```
+
+### Run
+```
+docker run --rm scalable-analytics-pipeline
+```
+
+### Test
+```
+docker run --rm scalable-analytics-pipeline python -m unittest discover -s tests
+```
