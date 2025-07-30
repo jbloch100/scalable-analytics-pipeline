@@ -28,11 +28,11 @@ docker build -t scalable-analytics-pipeline .
 ```
 
 ### Run
-```
+```bash
 docker run --rm scalable-analytics-pipeline
 ```
 
 ### Test
-```
+```bash
 docker run --rm scalable-analytics-pipeline python -m unittest discover -s tests
 ```
